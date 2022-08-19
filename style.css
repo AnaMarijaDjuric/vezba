@@ -1,0 +1,121 @@
+html{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+image{
+    height: 33rem;
+    width: auto;
+    object-fit: cover;
+}
+
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 3.7rem;
+    font-weight: 600;
+}
+
+
+.left{
+    align-content: top;
+    font-size: 1.3rem;
+
+    /* pitaj Vladu zasto mi font-weight nije hteo, da li zato sto sam ubacila font 600 */
+}
+.right{
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    margin: 7px 3px;
+    color: white;
+    background-color: rgb(83, 73, 73);
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.top{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 4rem 3rem
+}
+.top-left{
+    margin: 4rem 4rem;
+}
+.top-right{
+    margin: 0rem 5rem;
+}
+
+#big{
+    font-weight: 600;
+    font-size: 4.3rem;
+    line-height: 4.7rem;
+    letter-spacing: -0.2rem;
+    text-align: left;
+}
+#middle{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0rem;
+}
+
+#first{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#second{
+    margin: -1rem 20rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.block{
+    height: 20rem;
+    width: 20rem;
+    box-shadow: 4px 3px 9px 7px rgba(75, 64, 64, 0.134);
+    text-align: center;
+}
+
+#bottom-first{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 3rem 0rem;
+}
+#bottom-second{
+    margin: 0rem 2rem;
+}
+#bottom-third{
+    margin: 3rem;
+    
+}
